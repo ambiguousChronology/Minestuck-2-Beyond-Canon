@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_5"
+	group: "1D555444988AE165"
+	icon: "farmersdelight:smoked_ham"
+	id: "3A88A3D1385C9295"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Act 5 ==>"
+}

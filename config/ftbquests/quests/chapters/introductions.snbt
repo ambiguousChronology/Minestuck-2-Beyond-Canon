@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introductions"
+	group: ""
+	icon: "minestuck:dice"
+	id: "19F195F43332F764"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Minestuck^2: Beyond Canon."
+				"You have quite a lot of potential, and it seems like you may have quite the journey ahead of you, from what I can see."
+			]
+			icon: "minestuck:cueball"
+			id: "354A0EC21152B45D"
+			rewards: [{
+				id: "1E729C272E22C3D5"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			subtitle: "Untapped Potential."
+			tasks: [{
+				id: "6136A6FEDD348D45"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			title: "Greetings"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["354A0EC21152B45D"]
+			description: ["The point of Minestuck^2 is to provide you with two paths. The Meat of the pack, with a deep, grindy, technological experience, or The Candy, of the pack, a much more magical and fantastical experience."]
+			icon: "minestuck:black_queens_ring"
+			id: "4E94D4BB52B4ADFF"
+			subtitle: "The Million Dollar Question."
+			tasks: [{
+				id: "4702AFFB54DBCAB2"
+				type: "checkmark"
+			}]
+			title: "What's the point?"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E94D4BB52B4ADFF"]
+			icon: "farmersdelight:smoked_ham"
+			id: "0B5A1BD351BA50FD"
+			rewards: [{
+				id: "62F602D7A8F38981"
+				item: "farmersdelight:smoked_ham"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21476C52F2EE79EF"
+				title: "The Meat"
+				type: "checkmark"
+			}]
+			title: "The Meat..."
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E94D4BB52B4ADFF"]
+			icon: "minestuck:candy_corn"
+			id: "3993060F8B745426"
+			rewards: [{
+				count: 8
+				id: "52A063348FA769F3"
+				item: "minestuck:candy_corn"
+				type: "item"
+			}]
+			tasks: [{
+				id: "759DE2DB4E409654"
+				title: "...or The Candy."
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "462D90467062CD88"
+			tasks: [{
+				id: "684EA65CE3D36ACD"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "3E2C2DED9ED7E8F8"
+			tasks: [{
+				id: "2C88A2B1C81C3762"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+	]
+	title: "Introductions"
+}
