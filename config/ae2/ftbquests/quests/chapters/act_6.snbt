@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_6"
+	group: "1D555444988AE165"
+	icon: "farmersdelight:honey_glazed_ham_block"
+	id: "02D10ECB1F93373C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Act 6 ==>"
+}
