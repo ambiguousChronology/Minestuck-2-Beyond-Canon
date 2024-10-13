@@ -1,7 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "1D555444988AE165", title: "The Meat" }
-		{ id: "0A93B969D2F1A8E9", title: "The Candy" }
-		{ id: "692BA94F59A742A8", title: "And Everything In Between" }
-	]
-}
