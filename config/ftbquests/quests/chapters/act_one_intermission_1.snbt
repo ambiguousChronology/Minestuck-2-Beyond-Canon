@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_one_intermission_1"
+	group: "692BA94F59A742A8"
+	id: "552DB368F345F98B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Act One: Intermission 1 ==>"
+}
